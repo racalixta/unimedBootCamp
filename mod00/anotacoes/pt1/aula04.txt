@@ -1,0 +1,27 @@
+# Pilares: decomposição
+
+> Decomposição
+
+  º Processo de quebrar e determinar partes menores e gerenciáveis - Análise
+  º Combinar os elementos recompondo o problema original - Síntese
+
+  > Ordem de execução de tarefas menores
+    º Sequêncial
+      - Dependência entre as tarefas, executadas em fila
+    º Paralelo
+      -  Tarefas podem ser executadas concomitantemente, + eficiência e - tempo
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
