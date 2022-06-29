@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parte Prática de Flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Flexbox na prática</h1>
+  </div>
+
+  <h2>Display: flex;</h2>
+  <div class="example">
+    <div class="flex">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+    </div>
+  </div>
+
+  <h2>Flex-direction</h2>
+  <div class="example">
+    <div>
+      <h4>row</h4>
+      <ul class="direction-container row">
+          <li class="flex-item">i1</li>
+          <li class="flex-item">i2</li>
+          <li class="flex-item">i3</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h4>row-reverse</h4>
+      <ul class="direction-container row-reverse">
+        <li class="flex-item">i1</li>
+        <li class="flex-item">i2</li>
+        <li class="flex-item">i3</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h4>column</h4>
+      <ul class="direction-container column">
+        <li class="flex-item">i1</li>
+        <li class="flex-item">i2</li>
+        <li class="flex-item">i3</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h4>column-reverse</h4>
+      <ul class="direction-container column-reverse">
+        <li class="flex-item">i1</li>
+        <li class="flex-item">i2</li>
+        <li class="flex-item">i3</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+<h2>Flex-wrap</h2>
+<div class="example">
+  <div>
+    <h4>nowrap</h4>
+    <div class="wrap-container nowrap">
+      <div class="wrap-item aqua">1</div>
+      <div class="wrap-item green">2</div>
+      <div class="wrap-item orange">3</div>
+      <div class="wrap-item aqua">4</div>
+    </div>  
+  </div>
+
+  <div>
+    <h4>wrap</h4>
+    <div class="wrap-container wrap">
+      <div class="wrap-item aqua">1</div>
+      <div class="wrap-item green">2</div>
+      <div class="wrap-item orange">3</div>
+      <div class="wrap-item aqua">4</div>
+      <div class="wrap-item green">5</div>
+    </div>  
+  </div>
+
+  <div>
+    <h4>wrap-reverse</h4>
+    <div class="wrap-container wrap-reverse">
+      <div class="wrap-item aqua">1</div>
+      <div class="wrap-item green">2</div>
+      <div class="wrap-item orange">3</div>
+      <div class="wrap-item aqua">4</div>
+      <div class="wrap-item green">5</div>
+    </div>  
+  </div>
+</div>
+
+
+
+
+<h2>Flex-flow</h2>
+<div class="example">
+  <div>
+    <h4>flow row nowrap</h4>
+    <div class="flow-container flow-row-nowrap">
+      <div class="flow-item aqua">1</div>
+      <div class="flow-item green">2</div>
+      <div class="flow-item orange">3</div>
+      <div class="flow-item aqua">4</div>
+    </div>  
+  </div>
+
+  <div>
+    <h4>flow row wrap</h4>
+    <div class="flow-container flow-row-wrap">
+      <div class="flow-item aqua">1</div>
+      <div class="flow-item green">2</div>
+      <div class="flow-item orange">3</div>
+      <div class="flow-item aqua">4</div>
+    </div>  
+  </div>
+
+  <div>
+    <h4>flow column nowrap</h4>
+    <div class="flow-container flow-column-nowrap">
+      <div class="flow-item aqua">1</div>
+      <div class="flow-item green">2</div>
+      <div class="flow-item orange">3</div>
+      <div class="flow-item aqua">4</div>
+    </div>  
+  </div>
+
+  <div>
+    <h4>flow column wrap</h4>
+    <div class="flow-container flow-column-wrap">
+      <div class="flow-item aqua">1</div>
+      <div class="flow-item green">2</div>
+      <div class="flow-item orange">3</div>
+      <div class="flow-item aqua">4</div>
+    </div>  
+  </div>
+</div>
+
+  <h2>Justify-content</h2>
+  <h3>row</h3>
+  <div class="example-v2">
+    <h4>flex-start</h4>
+    <div class="justify-container justify-start">
+      <div class="justify-item">1</div>
+      <div class="justify-item">2</div>
+      <div class="justify-item">3</div>
+      <div class="justify-item">4</div>
+    </div>
+
+    <h4>flex-end</h4>
+    <div class="justify-container justify-end">
+      <div class="justify-item">1</div>
+      <div class="justify-item">2</div>
+      <div class="justify-item">3</div>
+      <div class="justify-item">4</div>
+    </div>
+
+    <h4>center</h4>
+    <div class="justify-container justify-center">
+      <div class="justify-item">1</div>
+      <div class="justify-item">2</div>
+      <div class="justify-item">3</div>
+      <div class="justify-item">4</div>
+    </div>
+
+    <h4>space-between</h4>
+    <div class="justify-container space-between">
+      <div class="justify-item">1</div>
+      <div class="justify-item">2</div>
+      <div class="justify-item">3</div>
+      <div class="justify-item">4</div>
+    </div>
+
+    <h4>space-around</h4>
+    <div class="justify-container space-around">
+      <div class="justify-item">1</div>
+      <div class="justify-item">2</div>
+      <div class="justify-item">3</div>
+      <div class="justify-item">4</div>
+    </div>
+  </div>
+
+  <h3>column</h3>
+  <div class="example">
+    <div class="capsula">
+      <h4>flex-start</h4>
+      <div class="justify-container-column justify-start column">
+        <div class="justify-item">1</div>
+        <div class="justify-item">2</div>
+        <div class="justify-item">3</div>
+        <div class="justify-item">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-end</h4>
+      <div class="justify-container-column justify-end column">
+        <div class="justify-item">1</div>
+        <div class="justify-item">2</div>
+        <div class="justify-item">3</div>
+        <div class="justify-item">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="justify-container-column justify-center column">
+        <div class="justify-item">1</div>
+        <div class="justify-item">2</div>
+        <div class="justify-item">3</div>
+        <div class="justify-item">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>space-between</h4>
+      <div class="justify-container-column space-between column">
+        <div class="justify-item">1</div>
+        <div class="justify-item">2</div>
+        <div class="justify-item">3</div>
+        <div class="justify-item">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>space-around</h4>
+      <div class="justify-container-column space-around column">
+        <div class="justify-item">1</div>
+        <div class="justify-item">2</div>
+        <div class="justify-item">3</div>
+        <div class="justify-item">4</div>
+      </div>
+    </div>
+  </div>
+  
+  <h2>Align-items</h2>
+  <h3>row</h3>
+  <div class="example wrap">
+    <div class="capsula">
+      <h4>stretch</h4>
+      <div class="align-container align-stretch flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="align-container align-center flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-start</h4>
+      <div class="align-container align-start flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-end</h4>
+      <div class="align-container align-end flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>baseline</h4>
+      <div class="align-container align-base flex">
+        <div class="align-item"><br> item 1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h3>column</h3>
+  <div class="example">
+
+    <div class="capsula">
+      <h4>flex-start</h4>
+      <div class="align-container-column align-start column flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-end</h4>
+      <div class="align-container-column align-end column flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="align-container-column align-center column flex">
+        <div class="align-item">1</div>
+        <div class="align-item">um item 2 qualquer para testar o texto</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>baseline</h4>
+      <div class="align-container-column align-base column flex">
+        <div class="align-item"><br> item 1</div>
+        <div class="align-item">um item 2 qualquer o</div>
+        <div class="align-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum amet fugit laborum esse fuga. Pariatur, quisquam. Temporibus non qui officia dolore possimus quia eaque laboriosam. Sunt incidunt amet voluptate animi.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Align-content</h2>
+  <div class="example wrap">
+    <div class="capsula">
+      <h4>stretch</h4>
+      <div class="content-container content-stretch">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque  omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+    
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="content-container content-center">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-start</h4>
+      <div class="content-container content-start">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-end</h4>
+      <div class="content-container content-end">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>space-between</h4>
+      <div class="content-container content-between">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>space-around</h4>
+      <div class="content-container content-around">
+        <div class="content-item">Lorem ipsum dolor sit amet con?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisiquaerat?</div>
+        <div class="content-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis </div>
+        <div class="content-item">Lorem ipsscipit a doloribus quaerat?</div>
+        <div class="content-item">temporibus, necessitatibus su?</div>
+        <div class="content-item">Lorem i</div>
+        <div class="content-item">Lorem ipsumsuscipit a doloribus quaerat?</div>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>

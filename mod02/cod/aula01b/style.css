@@ -1,0 +1,25 @@
+#title, .subtitle, .post-title {
+  color: cornflowerblue;
+}
+
+.post-title {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.box-model {
+  height: 200px;
+  width: 200px;
+  border: 2px solid cornflowerblue;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.inside-box {
+  margin: 30px;
+  padding: 20px;
+  width: 100px;
+  background-color: whitesmoke;
+  color: blue;
+  border: 2px solid cornflowerblue;
+}

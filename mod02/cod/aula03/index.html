@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parte 2-fundamentos do flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Flexbox na prática</h1>
+  </div>
+
+  <h2>Flex grow</h2>
+  <div class="example-v2">
+    <div class="capsula">
+      <h4>fg-0</h4>
+      <div class="grow-container">
+        <div class="grow-item fg-0">A</div>
+        <div class="grow-item fg-0">B</div>
+        <div class="grow-item fg-0">C</div>
+        <div class="grow-item fg-0">D</div>
+      </div>
+    </div>
+  
+    <div class="capsula">
+      <h4>fg-1</h4>
+      <div class="grow-container">
+        <div class="grow-item fg-1">A</div>
+        <div class="grow-item fg-1">B</div>
+        <div class="grow-item fg-1">C</div>
+        <div class="grow-item fg-1">D</div>
+      </div>
+    </div>
+  
+    <div class="capsula">
+      <h4>fg-2</h4>
+      <div class="grow-container">
+        <div class="grow-item fg-2">A</div>
+        <div class="grow-item fg-2">B</div>
+        <div class="grow-item fg-2">C</div>
+        <div class="grow-item fg-2">D</div>
+      </div>
+    </div>
+  
+    <div class="capsula">
+      <h4>fg-3</h4>
+      <div class="grow-container">
+        <div class="grow-item fg-3">A</div>
+        <div class="grow-item fg-3">B</div>
+        <div class="grow-item fg-3">C</div>
+        <div class="grow-item fg-3">D</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>Misturados</h4>
+      <div class="grow-container">
+        <div class="grow-item fg-0">A 0</div>
+        <div class="grow-item fg-1">B 1</div>
+        <div class="grow-item fg-2">C 2</div>
+        <div class="grow-item fg-3">D 3</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Flex-basis</h2>
+  <div class="example-v2">
+
+    <div class="capsula">
+      <h4>auto fg-0</h4>
+      <div class="basis-container">
+        <div class="basis-item basis-auto fg-0">A</div>
+        <div class="basis-item basis-auto fg-0">B 12</div>
+        <div class="basis-item basis-auto fg-0">C lorem lorem</div>
+        <div class="basis-item basis-auto fg-0">D 4489</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>auto fg-1</h4>
+      <div class="basis-container">
+        <div class="basis-item basis-auto fg-1">A</div>
+        <div class="basis-item basis-auto fg-1">B 12</div>
+        <div class="basis-item basis-auto fg-1">C lorem lorem</div>
+        <div class="basis-item basis-auto fg-2">D fg-2</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>basis-0 fg-1</h4>
+      <div class="basis-container">
+        <div class="basis-item basis-zero fg-1">A</div>
+        <div class="basis-item basis-zero fg-1">B 12</div>
+        <div class="basis-item basis-zero fg-1">C lorem lorem lorem lorem</div>
+        <div class="basis-item basis-zero fg-1">D fg-1</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>basis-value + width fg-0</h4>
+      <div class="basis-container">
+        <div class="basis-item basis-value fg-0">A</div>
+        <div class="basis-item basis-value fg-0">B 12</div>
+        <div class="basis-item basis-value fg-0">C lorem lorem lorem lorem</div>
+        <div class="basis-item basis-value fg-0">D fg-0</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>basis-value + width fg-1</h4>
+      <div class="basis-container">
+        <div class="basis-item basis-value fg-1">A</div>
+        <div class="basis-item basis-value fg-1">B 12</div>
+        <div class="basis-item basis-value fg-1">C lorem lorem lorem lorem</div>
+        <div class="basis-item basis-value fg-3">D fg-3</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Flex-shrink</h2>
+  <div class="example wrap">
+    
+    <div class="capsula">
+      <h4>shrink-1</h4>
+      <div class="shrink-container">
+        <div class="shrink-item shrink-1 fg-1">1</div>
+        <div class="shrink-item shrink-1 fg-1">2</div>
+        <div class="shrink-item shrink-1 fg-1">3</div>
+        <div class="shrink-item shrink-1 fg-1">4</div>
+        <div class="shrink-item shrink-1 fg-1">5</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>shrink-1</h4>
+      <p>PERMITE a quebra dos itens</p>
+      <div class="shrink-container">
+        <div class="shrink-item shrink-1 fg-1">1</div>
+        <div class="shrink-item shrink-1 fg-1">aumentado a quantidade de caracteres</div>
+        <div class="shrink-item shrink-1 fg-1">3</div>
+        <div class="shrink-item shrink-1 fg-1">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>shrink-0 / flex-basis: 100px</h4>
+      <p>NÃO permite a quebra dos itens </p>
+      <div class="shrink-container">
+        <div class="shrink-item shrink-0 fg-1">1</div>
+        <div class="shrink-item shrink-0 fg-1">2 opaka</div>
+        <div class="shrink-item shrink-0 fg-1">3</div>
+        <div class="shrink-item shrink-0 fg-1">4t the granade</div>
+        <div class="shrink-item shrink-0 fg-1">5</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>shrink-mix // flex-basis 100px</h4>
+      <div class="shrink-container">
+        <div class="shrink-item shrink-1 fg-1">s1</div>
+        <div class="shrink-item shrink-2 fg-1">shrink-2</div>
+        <div class="shrink-item shrink-3 fg-1">shrink-3</div>
+        <div class="shrink-item shrink-2 fg-1">shrink-2</div>
+        <div class="shrink-item shrink-0 fg-1">s0</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Flex - grow, shrink e basis</h2>
+  <div class="example wrap">
+
+    <div class="capsula">
+      <h4>flex-1 => grow: 1, flow: 1, basis: 0</h4>
+      <div class="flex-container">
+        <div class="flex-item flex-1">A</div>
+        <div class="flex-item flex-1">BB</div>
+        <div class="flex-item flex-1">CCC</div>
+        <div class="flex-item flex-1">DD</div>
+        <div class="flex-item flex-1">E</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>flex-mix 1 e 2 // flex-2 => grow: 2, flow: 1, basis: 0</h4>
+      <div class="flex-container">
+        <div class="flex-item flex-1">A</div>
+        <div class="flex-item flex-2">B2</div>
+        <div class="flex-item flex-1">CCC</div>
+        <div class="flex-item flex-2">DD2</div>
+        <div class="flex-item flex-1">E</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>width ignorado => basis = 0 + largura 200px (flex-1 em todos)</h4>
+      <div class="flex-container">
+        <div class="flex-item flex-1 largura">A</div>
+        <div class="flex-item flex-1 largura">B2</div>
+        <div class="flex-item flex-1 largura">CCC</div>
+        <div class="flex-item flex-1 largura">DD2</div>
+        <div class="flex-item flex-1 largura">E</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Order</h2>
+  <h3>row</h3>
+  <div class="example">
+
+    <div class="capsula">
+      <h4>order-0 // padrão</h4>
+      <div class="order-container">
+        <div class="order-item ">1</div>
+        <div class="order-item ">2</div>
+        <div class="order-item ">3</div>
+        <div class="order-item ">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>order-1-4</h4>
+      <p>O valor do order está distribuído de acordo como está abaixo, sendo o primeiro order-1 o último order-4</p>
+      <div class="order-container">
+        <div class="order-item order-4">1</div>
+        <div class="order-item order-2">2</div>
+        <div class="order-item order-1">3</div>
+        <div class="order-item order-3">4</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>column</h3>
+  <div class="example-v2">
+
+    <div class="capsula">
+      <h4>order-0 // padrão</h4>
+      <div class="order-container column">
+        <div class="order-item ">1</div>
+        <div class="order-item ">2</div>
+        <div class="order-item ">3</div>
+        <div class="order-item ">4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>order-1-4</h4>
+      <p>O valor do order está distribuído de acordo como está abaixo, sendo o primeiro order-1 o último order-4</p>
+      <div class="order-container column">
+        <div class="order-item order-4">1</div>
+        <div class="order-item order-2">2</div>
+        <div class="order-item order-1">3</div>
+        <div class="order-item order-3">4</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Align-self</h2>
+  <h3>row</h3>
+  <div class="example wrap">
+
+    <div class="capsula">
+      <h4>auto</h4>
+      <div class="self-container">
+        <div class="self-item auto">qualquer texto</div>
+        <div class="self-item auto">2</div>
+        <div class="self-item auto">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item auto">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="self-container">
+        <div class="self-item center">qualquer texto</div>
+        <div class="self-item center">2</div>
+        <div class="self-item center">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item center">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>start</h4>
+      <div class="self-container">
+        <div class="self-item start">qualquer texto</div>
+        <div class="self-item start">2</div>
+        <div class="self-item start">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item start">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>end</h4>
+      <div class="self-container">
+        <div class="self-item end">qualquer texto</div>
+        <div class="self-item end">2</div>
+        <div class="self-item end">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item end">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>baseline</h4>
+      <div class="self-container">
+        <div class="self-item baseline">qualquer texto</div>
+        <div class="self-item baseline">2</div>
+        <div class="self-item baseline">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item baseline">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>stretch</h4>
+      <div class="self-container">
+        <div class="self-item stretch">qualquer texto</div>
+        <div class="self-item stretch">2</div>
+        <div class="self-item stretch">Lorem ipsum dolor sit amet con lorem lorem lorem flahfhafa</div>
+        <div class="self-item stretch">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>mix de tudo</h4>
+      <div class="self-container">
+        <div class="self-item center">qualquer center</div>
+        <div class="self-item stretch">stretch</div>
+        <div class="self-item auto">Lorem ipsum AUTO dolor sit amet con lorem lorem lorem flahfhafa</div>
+        <div class="self-item end">end 4</div>
+        <div class="self-item start">start</div>
+        <div class="self-item baseline">baseline</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h3>column</h3>
+  <div class="example wrap bgcor">
+
+    <div class="capsula">
+      <h4>auto</h4>
+      <div class="self-container column">
+        <div class="self-item auto">qualquer texto</div>
+        <div class="self-item auto">2</div>
+        <div class="self-item auto">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item auto">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>center</h4>
+      <div class="self-container column">
+        <div class="self-item center">qualquer texto</div>
+        <div class="self-item center">2</div>
+        <div class="self-item center">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item center">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>start</h4>
+      <div class="self-container column">
+        <div class="self-item start">qualquer texto</div>
+        <div class="self-item start">2</div>
+        <div class="self-item start">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item start">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>end</h4>
+      <div class="self-container column">
+        <div class="self-item end">qualquer texto</div>
+        <div class="self-item end">2</div>
+        <div class="self-item end">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item end">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>baseline</h4>
+      <div class="self-container column">
+        <div class="self-item baseline">qualquer texto</div>
+        <div class="self-item baseline">2</div>
+        <div class="self-item baseline">Lorem ipsum dolor sit amet con</div>
+        <div class="self-item baseline">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>stretch</h4>
+      <div class="self-container column">
+        <div class="self-item stretch">qualquer texto</div>
+        <div class="self-item stretch">2</div>
+        <div class="self-item stretch">Lorem ipsum dolor sit amet con lorem lorem lorem flahfhafa</div>
+        <div class="self-item stretch">item 4</div>
+      </div>
+    </div>
+
+    <div class="capsula">
+      <h4>mix de tudo</h4>
+      <div class="self-container column">
+        <div class="self-item center">qualquer center</div>
+        <div class="self-item stretch">stretch</div>
+        <div class="self-item auto">Lorem ipsum AUTO dolor sit amet con lorem lorem lorem flahfhafa</div>
+        <div class="self-item end">end 4</div>
+        <div class="self-item start">start</div>
+        <div class="self-item baseline">baseline</div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
