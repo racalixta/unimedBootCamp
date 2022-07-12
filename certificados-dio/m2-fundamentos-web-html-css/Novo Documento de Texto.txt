@@ -1,0 +1,28 @@
+Certificados de conclusão das atividades do módulo II - Fundamentos Web com HTML e CSS, que faz parte do bootcamp Geração Tech Unimed-BH | Fullstack, fornecido pela plataforma de ensino DIO juntamente com a Unimed-BH.
+
+
+
+Certificados dos cursos: 
+
+1 - Primeiros passos para o desenvolvimento Web - onde é apresentado o que é internet e sua história, como funciona, suas principais funcionalidades e linguagens de programação para desenvolver para tal meio.
+
+
+
+2 - Introdução a criação de websites com HTML5 e CSS3 - onde se tem a demonstração de como funciona o HTML5 e suas principais tags e introdução e conceitos básicos de CSS3.
+
+
+
+3 - Posicionando elementos com Flexbox em CSS - para aprofundar o ensinamento de CSS do curso anterior, foi feito um curso inteiramente pensado para passar os principais conceitos do Flexbox, ao final desse curso foi feito um atividade de criar-se uma landing page de uma empresa de turismo, disponível em: https://racalixta.github.io/projeto-flexturismo/
+
+
+
+4 - Recriando a página inicial do Instagram - por fim foi feito um curso para botar em prática o que foi aprendido nesse módulo,      assim foi desenvolvido uma landing page do Instagram, disponível em: https://racalixta.github.io/projeto-instagram/
+
+
+
+#html #css #desenvolvimento #bootcamp
+
+
+
+
+
