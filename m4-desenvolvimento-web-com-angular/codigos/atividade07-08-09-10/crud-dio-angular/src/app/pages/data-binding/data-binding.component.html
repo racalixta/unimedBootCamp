@@ -1,0 +1,33 @@
+<h1>Demonstração do Data Binding</h1>
+
+<h5 class="my-4">{{ text }}</h5>
+
+<p>{{ retornaNome() }}</p>
+
+<h5 class="my-4">Component -> DOM - property binding</h5>
+
+<img [src]=" 'imgUrl' " [alt]=" 'imageDesc' ">
+
+<h5 class="my-4">Component &lt- DOM - Event binding</h5>
+
+<button class="btn btn-primary" (click)=" 'clicou()' ">Clique</button>
+
+<input type="text" #input (keyup)=" 'clicou(input.value)' ">
+{{ input.value }}
+
+<h5 class="my-4">Component &lt-> DOM - Two-way data binding</h5>
+
+<input type="text" class="form-control mt-4" [(ngModel)]="textInput">
+<p class="text-default mt-2">{{ textInput }}</p>
+
+<h5 class="my-4">Transferindo dados entre componentes / Event Emitter</h5>
+<app-button [btnText]=" 'Enviar' " [btnType]=" 'btn-primary' " (clickChildren)="clicouNoFilho($event)"></app-button>
+<app-button [btnText]=" 'Salve' " btnType="btn-success" (clickChildren)="clicouNoFilho($event)"></app-button>
+<app-button btnText="Cancelar" [btnType]=" 'btn-danger' " (clickChildren)="clicouNoFilho($event)"></app-button>
+<!-- ^^^^ como NÃO está sendo passado variáveis, o [] e " '' " são desncessários!!!     -->
+
+
+<h5 class="my-4">life-cyle</h5>
+<app-life-cycle [number]="number" *ngIf="!destroy"></app-life-cycle>
+<app-button [btnText]=" 'Incrementa' " [btnType]=" 'btn-primary' " (cick)="incrementa()"></app-button>
+<app-button btnText="Destroi" [btnType]=" 'btn-danger' " (click)="destroiComponent()"></app-button>

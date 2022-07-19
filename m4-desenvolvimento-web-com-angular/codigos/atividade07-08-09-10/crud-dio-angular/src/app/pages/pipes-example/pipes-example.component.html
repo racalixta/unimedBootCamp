@@ -1,0 +1,69 @@
+<div class="form-group my-4">
+  <label for="number">Number:</label>
+  <input type="text" [(ngModel)]="number" class="form-control" id="number">
+  <button class="btn btn-success my-2" (click)="mudaValor()">Clique</button>
+</div>
+
+<div class="">
+
+  <h2>uppercase</h2>
+  <p>{{ text }}</p>
+  <!-- forma mais comum de usar pipe
+    <p>{{ text | uppercase }}</p>
+  -->
+
+
+
+  <h2>numeros</h2>
+  <p>sem formatação:  {{ number | number }}</p>
+
+  <p>com formatação:  {{ number | number: '2.0-1' }}</p>
+
+  <p>em moeda:  {{ number | currency: 'BRL' }}</p>
+
+  <p>em porcentagem:  {{ number | percent }}</p>
+
+  <h2>data</h2>
+  <p>sem formatação:  {{ date }}</p>
+  <p>com formatação:  {{ date | date }}</p>
+  <p>shortTime:  {{ date | date: 'shortTime' }}</p>
+  <p>long+uppercase:  {{ date | date: 'long' | uppercase }}</p>
+  <p>meuPadrão: {{ date | date: 'dd/MM/YYYY'}}</p>
+  <p>short-pt:  {{ date | date: 'short' }}</p>
+
+  <h2>json</h2>
+  <p>sem: {{ pessoa }}</p>
+  <p>com: {{ pessoa | json }}</p>
+
+  <h2>Slice</h2>
+  <p>sem slice: {{ frase }}</p>
+  <p>com 1:7: {{ frase | slice:1:7 }}</p>
+  <p>com 0:3: {{ frase | slice:0:3 }}</p>
+  <p>com 6:-1: {{ frase | slice:6:-1 }}</p>
+  <p>com 0:-5: {{ frase | slice:0:-5 }}</p>
+
+  <div class="container">
+    <div class="col">
+      <div class="row-6">
+        <h2>meu pipe</h2>
+
+        <div class="form-group">
+          <label for="">Print Pipe test:</label> <br>
+          <input type="text" name="text" id="text" #nome>
+          <button class="btn btn-primary mx-2" (click)="add(nome.value)">add</button>
+        </div>
+
+
+      </div>
+
+      <div class="row-6">
+        <h2>Lista formatada</h2>
+        <p>Tamanho da lista: {{ nomes.length}}</p>
+        <p>{{ nomes | printList }}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+

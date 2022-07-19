@@ -1,0 +1,18 @@
+<div class="card shadow-sm">
+  <img class="bd-placeholder-img card-img-top w-100" [src]="this.livro.fotos[0].src">
+  <!--this.livro.fotos-->
+  <div class="card-body my-4">
+    <p class="card-text">Nome: {{ livro.nome }}</p>
+    <p class="card-text">Descrição: {{ livro.descricao }}</p>
+    <p class="card-text">Preço: {{ livro.preco | currency: 'BRL' }}</p>
+    <p class="card-text">ID: {{ livro.id }}</p>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-sm btn-primary mx-2">Comprar</button>
+      <button type="button" class="btn btn-sm btn-secondary mx-2">Detalhes</button>
+    </div>
+
+  </div>
+
+
+</div>

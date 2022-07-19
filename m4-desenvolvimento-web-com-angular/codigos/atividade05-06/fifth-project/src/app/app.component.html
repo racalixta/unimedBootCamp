@@ -1,0 +1,88 @@
+<h1 class="text-center">Live Angular Diretivas</h1>
+
+<!--  Diretivas de Atributo -->
+<div
+[ngStyle]="{background: count > 5 ? 'green' : 'red'}"
+[ngClass]="{custom: count > 5}"
+>
+<h3 class="text-center">Contador: {{ count }}</h3>
+</div>
+
+<!--  Diretivas Estruturais -->
+
+<h4 class="text-center" *ngIf="count > 7; else menor">O contador passou de 7!</h4>
+
+<ng-template #menor>
+  <h4 class="text-center">O contador é MENOR que 7!</h4>
+</ng-template>
+
+
+<ul [ngSwitch]="count" class="list-group mx-auto col-3">
+  <li
+    class="list-group-item"
+    *ngSwitchCase="3"
+  >é IGUAL à 3
+  </li>
+  <li
+    class="list-group-item"
+    *ngSwitchCase="5"
+  >é IGUAL à 5
+  </li>
+  <li
+    class="list-group-item"
+    *ngSwitchCase="7"
+  >é IGUAL à 7
+  </li>
+  <li
+    class="list-group-item"
+    *ngSwitchDefault
+  >esse é o default
+  </li>
+</ul>
+
+
+<ul [ngSwitch]="count" class="list-group mx-auto col-3 mt-3">
+    <li
+      class="list-group-item"
+      *ngFor="let p of pessoas"
+    >
+      app.component: {{ p.firstName }} {{ p.lastName }} {{ p.age }}
+    </li>
+</ul>
+
+<h2 class="text-center">Demonstração do service em list-people</h2>
+
+<app-list-people [list]="pessoas"></app-list-people>
+
+
+
+<h4 appMarcaTexto corDeFundo="blue" corDeTexto="orangered" class="text-center">{{ nome }}</h4>
+<h5 class="text-center">one-way data binding</h5>
+<div class="text-center">
+  <button class="btn btn-success" (click)="clicou('Ronaldo')">Clique</button>
+</div>
+
+<h5 class="text-center mt-4">two-way data binding</h5>
+<div class="col-4 mx-auto">
+  <input type="text" class="form-control" [(ngModel)]="text">
+  <h4>Saida: {{ text }}</h4>
+</div>
+
+<p appMarcaTexto corDeFundo="aliceblue" corDeTexto="orangered" class="text-center">Diretiva criada na aula</p>
+
+<div class="container my-6">
+  <div class="row d-flex align-ite-center justify-content-center">
+    <h2 class="text-center">Listagem de Perseonagens Rick and Morty</h2>
+
+    <div class="col-12">
+      <app-list-api></app-list-api>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
