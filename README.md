@@ -39,7 +39,7 @@
 - [x] Atividade 06 - Funções
 - [x] Atividade 07 - Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
 - [x] Atividade 08 - Descafios Iniciais JS - Unimed BH
-- [] Atividade 09 - Introdução Prática ao TypeScript
+- [x] Atividade 09 - Introdução Prática ao TypeScript
 
 ---
 
@@ -48,14 +48,14 @@
 - [x] Atividade 01 - Introdução ao Angular 8
 - [x] Atividade 02 - Trabalhando com Páginas SPA com Angular
 - [x] Atividade 03 - A arquitetura de componentes e a gestão da complexidade no front-end
-- [] Atividade 04 - Instalando e Preparando o Ambiente Angular
-- [] Atividade 05 - Implementando Serviços e Injeção de Depêndencias com Angular
-- [] Atividade 06 - Introdução a Serviços Assíncronos no Angular
-- [] Atividade 07 - O Poder do Data Binding no Angular
-- [] Atividade 08 - Trabalhando com Componentes em Angular
-- [] Atividade 09 - Criação de Pipes com Angular
-- [] Atividade 10 - Desafios Intermediários JS - Unimed BH
-- [] Atividade 11 - Como criar um front-end de um E-commerce utilizando ANgular
+- [x] Atividade 04 - Instalando e Preparando o Ambiente Angular
+- [x] Atividade 05 - Implementando Serviços e Injeção de Depêndencias com Angular
+- [x] Atividade 06 - Introdução a Serviços Assíncronos no Angular
+- [x] Atividade 07 - O Poder do Data Binding no Angular
+- [x] Atividade 08 - Trabalhando com Componentes em Angular
+- [x] Atividade 09 - Criação de Pipes com Angular
+- [x] Atividade 10 - Desafios Intermediários JS - Unimed BH
+- [x] Atividade 11 - Como criar um front-end de um E-commerce utilizando ANgular
 
 ---
 
