@@ -1,0 +1,1 @@
+## As atividades 01 e 02 foram de lições mais teóricas e todas as anotações foram feitas no Notion.

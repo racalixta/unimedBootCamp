@@ -1,0 +1,13 @@
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.exe
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.deps.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.runtimeconfig.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.runtimeconfig.dev.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\bin\Debug\netcoreapp3.1\dio-cli.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.csprojAssemblyReference.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.AssemblyInfo.cs
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade03\dio-cli\obj\Debug\netcoreapp3.1\dio-cli.genruntimeconfig.cache

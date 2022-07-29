@@ -1,0 +1,15 @@
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\bin\Debug\net6.0\Diretorio.exe
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\bin\Debug\net6.0\Diretorio.deps.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\bin\Debug\net6.0\Diretorio.runtimeconfig.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\bin\Debug\net6.0\Diretorio.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\bin\Debug\net6.0\Diretorio.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.csproj.AssemblyReference.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.AssemblyInfo.cs
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\refint\Diretorio.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\Diretorio.genruntimeconfig.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\Diretorio\obj\Debug\net6.0\ref\Diretorio.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "a8tRpfUWxftiYg4Tm/wYL7YBoCEkjFEYFPKi6x4cAVZnVNyqt13mejV1nTpcuTPQKkT0x4a0n69fcu5Xx3re2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usuário\\Desktop\\projeto\\unimedBootCamp\\m6-dominando-ecossistema-dotNet-com-cSharp\\codigos\\atividade06\\ProjetoCsvHelper\\ProjetoCsvHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuário\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

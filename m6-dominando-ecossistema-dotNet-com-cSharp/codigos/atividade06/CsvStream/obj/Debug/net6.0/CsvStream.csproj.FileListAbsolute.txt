@@ -1,0 +1,15 @@
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\bin\Debug\net6.0\CsvStream.exe
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\bin\Debug\net6.0\CsvStream.deps.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\bin\Debug\net6.0\CsvStream.runtimeconfig.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\bin\Debug\net6.0\CsvStream.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\bin\Debug\net6.0\CsvStream.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.csproj.AssemblyReference.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.AssemblyInfo.cs
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\refint\CsvStream.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\CsvStream.genruntimeconfig.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade06\CsvStream\obj\Debug\net6.0\ref\CsvStream.dll

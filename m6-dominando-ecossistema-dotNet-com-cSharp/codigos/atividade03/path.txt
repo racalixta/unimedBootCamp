@@ -1,0 +1,4 @@
+cd Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos/atividade03  
+
+
+aula 02 - criação de um proejto pelo CLI

@@ -1,0 +1,14 @@
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.AssemblyInfo.cs
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.exe
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.deps.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.runtimeconfig.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.runtimeconfig.dev.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.genruntimeconfig.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.csproj.AssemblyReference.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade04\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.GeneratedMSBuildEditorConfig.editorconfig
