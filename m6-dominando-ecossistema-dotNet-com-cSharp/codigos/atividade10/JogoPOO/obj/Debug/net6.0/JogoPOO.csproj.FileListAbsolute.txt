@@ -1,0 +1,15 @@
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\bin\Debug\net6.0\JogoPOO.exe
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\bin\Debug\net6.0\JogoPOO.deps.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\bin\Debug\net6.0\JogoPOO.runtimeconfig.json
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\bin\Debug\net6.0\JogoPOO.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\bin\Debug\net6.0\JogoPOO.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.csproj.AssemblyReference.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.AssemblyInfoInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.AssemblyInfo.cs
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.csproj.CoreCompileInputs.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\refint\JogoPOO.dll
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.pdb
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\JogoPOO.genruntimeconfig.cache
+C:\Users\usuário\Desktop\projeto\unimedBootCamp\m6-dominando-ecossistema-dotNet-com-cSharp\codigos\atividade10\JogoPOO\obj\Debug\net6.0\ref\JogoPOO.dll
